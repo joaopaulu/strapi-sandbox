@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_sectiopn_reviews",
+  "info": {
+    "name": "sectiopnReviews",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.reviews",
+      "required": true,
+      "min": 4
+    }
+  }
+}
