@@ -1,12 +1,12 @@
 const GET_LANDING_PAGE = /* GraphQL*/ `
-fragment logo on LandingPage{
-  logo{
+fragment logo on LandingPage {
+  logo {
     alternativeText
     url
   }
 }
 
-fragment header on LandingPage{
+fragment header on LandingPage {
   header {
     title
     description
@@ -14,30 +14,44 @@ fragment header on LandingPage{
       label
       url
     }
-    image{
+    image {
       alternativeText
       url
     }
   }
 }
 
-fragment sectionAbout on LandingPage{
-  sectionAboutProject{
+fragment sectionAbout on LandingPage {
+  sectionAboutProject {
     title
     description
-    image{
+    image {
       alternativeText
       url
+    }
+  }
+}
+
+fragment sectionTech on LandingPage{
+  sectionTech{
+    title
+    techIcons{
+      title
+      icon{
+        url
+      }
     }
   }
 }
 
 query GET_LANDING_PAGE {
-  landingPage{
+  landingPage {
     ...logo
     ...header
     ...sectionAbout
+    ...sectionTech
   }
 }
+
 `
 export default GET_LANDING_PAGE
