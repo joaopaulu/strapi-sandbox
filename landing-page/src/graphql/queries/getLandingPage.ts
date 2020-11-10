@@ -48,7 +48,19 @@ fragment sectionConceps on LandingPage {
   sectionConcepts {
     title
     concepts {
+      id
       title
+    }
+  }
+}
+
+fragment sectionModules on LandingPage {
+  sectionModules {
+    title
+    modules{
+      title
+      subtitle
+      description
     }
   }
 }
@@ -60,6 +72,7 @@ query GET_LANDING_PAGE {
     ...sectionAbout
     ...sectionTech
     ...sectionConceps
+    ...sectionModules
   }
 }
 `
