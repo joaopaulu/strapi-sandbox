@@ -17,7 +17,7 @@ const SectionAboutUs = ({ title, authors }: SectionAboutUsProps) => (
           key={profile.name}
           name={profile.name}
           role={profile.role}
-          foto={profile.foto}
+          photo={profile.photo}
           description={profile.description}
         />
       ))}

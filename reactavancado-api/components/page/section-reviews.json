@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_page_sectiopn_reviews",
+  "collectionName": "components_page_section_reviews",
   "info": {
-    "name": "sectiopnReviews",
-    "icon": "address-book"
+    "name": "sectionReviews",
+    "icon": "star"
   },
   "options": {},
   "attributes": {

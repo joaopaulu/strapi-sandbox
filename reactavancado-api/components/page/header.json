@@ -11,7 +11,8 @@
       "required": true
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "button": {
       "type": "component",
@@ -23,7 +24,6 @@
       "via": "related",
       "allowedTypes": [
         "images",
-        "files",
         "videos"
       ],
       "plugin": "upload",

@@ -15,10 +15,12 @@
         "LinkedIn",
         "Facebook"
       ],
-      "default": "Twitter"
+      "default": "Twitter",
+      "required": true
     },
     "url": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -2,13 +2,11 @@
   "kind": "singleType",
   "collectionName": "landing_pages",
   "info": {
-    "name": "LandingPage",
-    "description": ""
+    "name": "landingPage"
   },
   "options": {
     "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "timestamps": true
   },
   "attributes": {
     "logo": {
@@ -60,6 +58,16 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-about-us"
+    },
+    "sectionReviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-reviews"
+    },
+    "sectionFaq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-faq"
     }
   }
 }

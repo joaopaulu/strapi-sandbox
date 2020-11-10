@@ -2,7 +2,7 @@
   "collectionName": "components_page_pricing_boxes",
   "info": {
     "name": "pricingBox",
-    "icon": "money-bill-alt"
+    "icon": "dollar-sign"
   },
   "options": {},
   "attributes": {

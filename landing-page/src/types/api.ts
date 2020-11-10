@@ -68,7 +68,7 @@ export type PricingBoxProps = {
 }
 
 export type Author = {
-  foto: Image
+  photo: Image
   name: string
   role: string
   description: string

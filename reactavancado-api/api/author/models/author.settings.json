@@ -2,16 +2,14 @@
   "kind": "collectionType",
   "collectionName": "authors",
   "info": {
-    "name": "author",
-    "description": ""
+    "name": "author"
   },
   "options": {
     "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "timestamps": true
   },
   "attributes": {
-    "foto": {
+    "photo": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -28,19 +26,15 @@
       "type": "string",
       "required": true
     },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-links",
+      "required": false
+    },
     "description": {
-      "type": "string",
+      "type": "text",
       "required": true
-    },
-    "sectiopnReviews": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.sectiopn-reviews"
-    },
-    "sectionFaq": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.section-faq"
     }
   }
 }

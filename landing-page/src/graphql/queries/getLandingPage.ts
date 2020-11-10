@@ -89,7 +89,7 @@ fragment sectionAboutUs on LandingPage{
   sectionAboutUs{
     title
     authors{      
-      foto{
+      photo{
        alternativeText
         url
       }

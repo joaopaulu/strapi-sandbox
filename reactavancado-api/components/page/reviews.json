@@ -2,7 +2,7 @@
   "collectionName": "components_page_reviews",
   "info": {
     "name": "reviews",
-    "icon": "star"
+    "icon": "star-half-alt"
   },
   "options": {},
   "attributes": {
@@ -14,7 +14,7 @@
       "type": "text",
       "required": true
     },
-    "foto": {
+    "photo": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

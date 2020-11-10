@@ -2,7 +2,7 @@
   "collectionName": "components_page_tech_icons",
   "info": {
     "name": "techIcons",
-    "icon": "toolbox"
+    "icon": "tools"
   },
   "options": {},
   "attributes": {
@@ -10,9 +10,7 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
-        "images",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": true

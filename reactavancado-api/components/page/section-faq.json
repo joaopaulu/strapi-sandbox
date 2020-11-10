@@ -2,7 +2,7 @@
   "collectionName": "components_page_section_faqs",
   "info": {
     "name": "sectionFaq",
-    "icon": "question"
+    "icon": "question-circle"
   },
   "options": {},
   "attributes": {
