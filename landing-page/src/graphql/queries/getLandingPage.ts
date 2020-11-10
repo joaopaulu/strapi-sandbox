@@ -32,14 +32,23 @@ fragment sectionAbout on LandingPage {
   }
 }
 
-fragment sectionTech on LandingPage{
-  sectionTech{
+fragment sectionTech on LandingPage {
+  sectionTech {
     title
-    techIcons{
+    techIcons {
       title
-      icon{
+      icon {
         url
       }
+    }
+  }
+}
+
+fragment sectionConceps on LandingPage {
+  sectionConcepts {
+    title
+    concepts {
+      title
     }
   }
 }
@@ -50,8 +59,8 @@ query GET_LANDING_PAGE {
     ...header
     ...sectionAbout
     ...sectionTech
+    ...sectionConceps
   }
 }
-
 `
 export default GET_LANDING_PAGE
