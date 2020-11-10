@@ -65,6 +65,13 @@ fragment sectionModules on LandingPage {
   }
 }
 
+fragment sectionAgenda on LandingPage{
+  sectionAgenda{
+    title
+    description
+  }
+}
+
 query GET_LANDING_PAGE {
   landingPage {
     ...logo
@@ -73,6 +80,7 @@ query GET_LANDING_PAGE {
     ...sectionTech
     ...sectionConceps
     ...sectionModules
+    ...sectionAgenda
   }
 }
 `
