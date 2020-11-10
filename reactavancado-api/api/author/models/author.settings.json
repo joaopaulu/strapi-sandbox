@@ -28,12 +28,6 @@
       "type": "string",
       "required": true
     },
-    "socialLinks": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.social-links",
-      "required": true
-    },
     "description": {
       "type": "string",
       "required": true
